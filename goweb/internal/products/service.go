@@ -1,8 +1,9 @@
 package products
 
 import (
-	"clase3_parte2/internal/domain"
 	"fmt"
+
+	"github.com/nictes1/wave5/goweb/internal/domain"
 )
 
 type Service interface {
