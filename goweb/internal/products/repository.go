@@ -1,9 +1,10 @@
 package products
 
 import (
-	"clase3_parte2/internal/domain"
-	"clase3_parte2/pkg/store"
 	"fmt"
+
+	"github.com/nictes1/wave5/goweb/internal/domain"
+	"github.com/nictes1/wave5/goweb/pkg/store"
 )
 
 const (
@@ -39,10 +40,6 @@ func (r *repository) GetAll() ([]domain.Product, error) {
 	return ps, nil
 }
 
-
-
-
-
 func (r *repository) Store(id int, name, producType string, count int, price float64) (domain.Product, error) {
 	var ps []domain.Product
 
@@ -59,10 +56,6 @@ func (r *repository) Store(id int, name, producType string, count int, price flo
 
 	return p, nil
 }
-
-
-
-
 
 func (r *repository) Update(id int, name, productType string, count int, price float64) (domain.Product, error) {
 	var ps []domain.Product

@@ -1,11 +1,13 @@
 package main
 
 import (
-	
 	"log"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
+	"github.com/nictes1/wave5/goweb/cmd/server/handler"
+	"github.com/nictes1/wave5/goweb/internal/products"
+	"github.com/nictes1/wave5/goweb/pkg/store"
 )
 
 func main() {

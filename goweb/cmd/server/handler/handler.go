@@ -6,9 +6,8 @@ import (
 	"os"
 	"strconv"
 
-	"clase3_parte2/internal/products"
-
 	"github.com/gin-gonic/gin"
+	"github.com/nictes1/wave5/goweb/internal/products"
 )
 
 type request struct {
